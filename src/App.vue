@@ -1,13 +1,17 @@
 <script setup>
+import Graph from './components/Graph.vue';
 </script>
 
 <template>
-   <nav>
-    <RouterLink to="/">Home </RouterLink>
-    <RouterLink to="/graph">Graph</RouterLink>
-  </nav>
-  <main>
+  <!--
+    <nav>
+     <RouterLink to="/">Home </RouterLink>
+     <RouterLink to="/graph">Graph</RouterLink>
+    </nav>
     <RouterView />
+  -->
+  <main>
+    <Graph />
   </main>
 </template>
 
